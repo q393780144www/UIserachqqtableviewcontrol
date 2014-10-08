@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041EF90D19D255D1006E7D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041EF90C19D255D1006E7D1B /* Foundation.framework */; };
+		041EF90F19D255D1006E7D1B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041EF90E19D255D1006E7D1B /* CoreGraphics.framework */; };
+		041EF91119D255D1006E7D1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041EF91019D255D1006E7D1B /* UIKit.framework */; };
+		041EF91719D255D1006E7D1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041EF91519D255D1006E7D1B /* InfoPlist.strings */; };
+		041EF91919D255D1006E7D1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EF91819D255D1006E7D1B /* main.m */; };
+		041EF91D19D255D1006E7D1B /* YGHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EF91C19D255D1006E7D1B /* YGHAppDelegate.m */; };
+		041EF91F19D255D1006E7D1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041EF91E19D255D1006E7D1B /* Images.xcassets */; };
+		041EF92619D255D1006E7D1B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041EF92519D255D1006E7D1B /* XCTest.framework */; };
+		041EF92719D255D1006E7D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041EF90C19D255D1006E7D1B /* Foundation.framework */; };
+		041EF92819D255D1006E7D1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041EF91019D255D1006E7D1B /* UIKit.framework */; };
+		041EF93019D255D1006E7D1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041EF92E19D255D1006E7D1B /* InfoPlist.strings */; };
+		041EF93219D255D1006E7D1B /* UIserachqqtableviewcontrolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EF93119D255D1006E7D1B /* UIserachqqtableviewcontrolTests.m */; };
+		041EF93D19D25625006E7D1B /* YGHRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041EF93C19D25625006E7D1B /* YGHRootTableViewController.m */; };
+		041EF94319D2585F006E7D1B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 041EF93F19D2585F006E7D1B /* 1.jpg */; };
+		041EF94419D2585F006E7D1B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 041EF94019D2585F006E7D1B /* 2.jpg */; };
+		041EF94519D2585F006E7D1B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 041EF94119D2585F006E7D1B /* 3.jpg */; };
+		041EF94619D2585F006E7D1B /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 041EF94219D2585F006E7D1B /* 4.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041EF92919D255D1006E7D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041EF90119D255D1006E7D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041EF90819D255D1006E7D1B;
+			remoteInfo = UIserachqqtableviewcontrol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041EF90919D255D1006E7D1B /* UIserachqqtableviewcontrol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIserachqqtableviewcontrol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041EF90C19D255D1006E7D1B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		041EF90E19D255D1006E7D1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		041EF91019D255D1006E7D1B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		041EF91419D255D1006E7D1B /* UIserachqqtableviewcontrol-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIserachqqtableviewcontrol-Info.plist"; sourceTree = "<group>"; };
+		041EF91619D255D1006E7D1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		041EF91819D255D1006E7D1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041EF91A19D255D1006E7D1B /* UIserachqqtableviewcontrol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIserachqqtableviewcontrol-Prefix.pch"; sourceTree = "<group>"; };
+		041EF91B19D255D1006E7D1B /* YGHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YGHAppDelegate.h; sourceTree = "<group>"; };
+		041EF91C19D255D1006E7D1B /* YGHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YGHAppDelegate.m; sourceTree = "<group>"; };
+		041EF91E19D255D1006E7D1B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		041EF92419D255D1006E7D1B /* UIserachqqtableviewcontrolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIserachqqtableviewcontrolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041EF92519D255D1006E7D1B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		041EF92D19D255D1006E7D1B /* UIserachqqtableviewcontrolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIserachqqtableviewcontrolTests-Info.plist"; sourceTree = "<group>"; };
+		041EF92F19D255D1006E7D1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		041EF93119D255D1006E7D1B /* UIserachqqtableviewcontrolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIserachqqtableviewcontrolTests.m; sourceTree = "<group>"; };
+		041EF93B19D25625006E7D1B /* YGHRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHRootTableViewController.h; sourceTree = "<group>"; };
+		041EF93C19D25625006E7D1B /* YGHRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHRootTableViewController.m; sourceTree = "<group>"; };
+		041EF93F19D2585F006E7D1B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		041EF94019D2585F006E7D1B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		041EF94119D2585F006E7D1B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		041EF94219D2585F006E7D1B /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041EF90619D255D1006E7D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EF90F19D255D1006E7D1B /* CoreGraphics.framework in Frameworks */,
+				041EF91119D255D1006E7D1B /* UIKit.framework in Frameworks */,
+				041EF90D19D255D1006E7D1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041EF92119D255D1006E7D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EF92619D255D1006E7D1B /* XCTest.framework in Frameworks */,
+				041EF92819D255D1006E7D1B /* UIKit.framework in Frameworks */,
+				041EF92719D255D1006E7D1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041EF90019D255D1006E7D1B = {
+			isa = PBXGroup;
+			children = (
+				041EF91219D255D1006E7D1B /* UIserachqqtableviewcontrol */,
+				041EF92B19D255D1006E7D1B /* UIserachqqtableviewcontrolTests */,
+				041EF90B19D255D1006E7D1B /* Frameworks */,
+				041EF90A19D255D1006E7D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041EF90A19D255D1006E7D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041EF90919D255D1006E7D1B /* UIserachqqtableviewcontrol.app */,
+				041EF92419D255D1006E7D1B /* UIserachqqtableviewcontrolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041EF90B19D255D1006E7D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041EF90C19D255D1006E7D1B /* Foundation.framework */,
+				041EF90E19D255D1006E7D1B /* CoreGraphics.framework */,
+				041EF91019D255D1006E7D1B /* UIKit.framework */,
+				041EF92519D255D1006E7D1B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		041EF91219D255D1006E7D1B /* UIserachqqtableviewcontrol */ = {
+			isa = PBXGroup;
+			children = (
+				041EF91B19D255D1006E7D1B /* YGHAppDelegate.h */,
+				041EF91C19D255D1006E7D1B /* YGHAppDelegate.m */,
+				041EF93B19D25625006E7D1B /* YGHRootTableViewController.h */,
+				041EF93C19D25625006E7D1B /* YGHRootTableViewController.m */,
+				041EF91E19D255D1006E7D1B /* Images.xcassets */,
+				041EF91319D255D1006E7D1B /* Supporting Files */,
+			);
+			path = UIserachqqtableviewcontrol;
+			sourceTree = "<group>";
+		};
+		041EF91319D255D1006E7D1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041EF93E19D2585F006E7D1B /* img */,
+				041EF91419D255D1006E7D1B /* UIserachqqtableviewcontrol-Info.plist */,
+				041EF91519D255D1006E7D1B /* InfoPlist.strings */,
+				041EF91819D255D1006E7D1B /* main.m */,
+				041EF91A19D255D1006E7D1B /* UIserachqqtableviewcontrol-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041EF92B19D255D1006E7D1B /* UIserachqqtableviewcontrolTests */ = {
+			isa = PBXGroup;
+			children = (
+				041EF93119D255D1006E7D1B /* UIserachqqtableviewcontrolTests.m */,
+				041EF92C19D255D1006E7D1B /* Supporting Files */,
+			);
+			path = UIserachqqtableviewcontrolTests;
+			sourceTree = "<group>";
+		};
+		041EF92C19D255D1006E7D1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041EF92D19D255D1006E7D1B /* UIserachqqtableviewcontrolTests-Info.plist */,
+				041EF92E19D255D1006E7D1B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041EF93E19D2585F006E7D1B /* img */ = {
+			isa = PBXGroup;
+			children = (
+				041EF93F19D2585F006E7D1B /* 1.jpg */,
+				041EF94019D2585F006E7D1B /* 2.jpg */,
+				041EF94119D2585F006E7D1B /* 3.jpg */,
+				041EF94219D2585F006E7D1B /* 4.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041EF90819D255D1006E7D1B /* UIserachqqtableviewcontrol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041EF93519D255D1006E7D1B /* Build configuration list for PBXNativeTarget "UIserachqqtableviewcontrol" */;
+			buildPhases = (
+				041EF90519D255D1006E7D1B /* Sources */,
+				041EF90619D255D1006E7D1B /* Frameworks */,
+				041EF90719D255D1006E7D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIserachqqtableviewcontrol;
+			productName = UIserachqqtableviewcontrol;
+			productReference = 041EF90919D255D1006E7D1B /* UIserachqqtableviewcontrol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041EF92319D255D1006E7D1B /* UIserachqqtableviewcontrolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041EF93819D255D1006E7D1B /* Build configuration list for PBXNativeTarget "UIserachqqtableviewcontrolTests" */;
+			buildPhases = (
+				041EF92019D255D1006E7D1B /* Sources */,
+				041EF92119D255D1006E7D1B /* Frameworks */,
+				041EF92219D255D1006E7D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041EF92A19D255D1006E7D1B /* PBXTargetDependency */,
+			);
+			name = UIserachqqtableviewcontrolTests;
+			productName = UIserachqqtableviewcontrolTests;
+			productReference = 041EF92419D255D1006E7D1B /* UIserachqqtableviewcontrolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041EF90119D255D1006E7D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YGH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___YUGUIHUA___";
+				TargetAttributes = {
+					041EF92319D255D1006E7D1B = {
+						TestTargetID = 041EF90819D255D1006E7D1B;
+					};
+				};
+			};
+			buildConfigurationList = 041EF90419D255D1006E7D1B /* Build configuration list for PBXProject "UIserachqqtableviewcontrol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 041EF90019D255D1006E7D1B;
+			productRefGroup = 041EF90A19D255D1006E7D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041EF90819D255D1006E7D1B /* UIserachqqtableviewcontrol */,
+				041EF92319D255D1006E7D1B /* UIserachqqtableviewcontrolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041EF90719D255D1006E7D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EF94619D2585F006E7D1B /* 4.jpg in Resources */,
+				041EF94519D2585F006E7D1B /* 3.jpg in Resources */,
+				041EF94319D2585F006E7D1B /* 1.jpg in Resources */,
+				041EF91719D255D1006E7D1B /* InfoPlist.strings in Resources */,
+				041EF94419D2585F006E7D1B /* 2.jpg in Resources */,
+				041EF91F19D255D1006E7D1B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041EF92219D255D1006E7D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EF93019D255D1006E7D1B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041EF90519D255D1006E7D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EF91919D255D1006E7D1B /* main.m in Sources */,
+				041EF93D19D25625006E7D1B /* YGHRootTableViewController.m in Sources */,
+				041EF91D19D255D1006E7D1B /* YGHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041EF92019D255D1006E7D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EF93219D255D1006E7D1B /* UIserachqqtableviewcontrolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041EF92A19D255D1006E7D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041EF90819D255D1006E7D1B /* UIserachqqtableviewcontrol */;
+			targetProxy = 041EF92919D255D1006E7D1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041EF91519D255D1006E7D1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041EF91619D255D1006E7D1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		041EF92E19D255D1006E7D1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041EF92F19D255D1006E7D1B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041EF93319D255D1006E7D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		041EF93419D255D1006E7D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041EF93619D255D1006E7D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIserachqqtableviewcontrol/UIserachqqtableviewcontrol-Prefix.pch";
+				INFOPLIST_FILE = "UIserachqqtableviewcontrol/UIserachqqtableviewcontrol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		041EF93719D255D1006E7D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIserachqqtableviewcontrol/UIserachqqtableviewcontrol-Prefix.pch";
+				INFOPLIST_FILE = "UIserachqqtableviewcontrol/UIserachqqtableviewcontrol-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		041EF93919D255D1006E7D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIserachqqtableviewcontrol.app/UIserachqqtableviewcontrol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIserachqqtableviewcontrol/UIserachqqtableviewcontrol-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIserachqqtableviewcontrolTests/UIserachqqtableviewcontrolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		041EF93A19D255D1006E7D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIserachqqtableviewcontrol.app/UIserachqqtableviewcontrol";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIserachqqtableviewcontrol/UIserachqqtableviewcontrol-Prefix.pch";
+				INFOPLIST_FILE = "UIserachqqtableviewcontrolTests/UIserachqqtableviewcontrolTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041EF90419D255D1006E7D1B /* Build configuration list for PBXProject "UIserachqqtableviewcontrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041EF93319D255D1006E7D1B /* Debug */,
+				041EF93419D255D1006E7D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041EF93519D255D1006E7D1B /* Build configuration list for PBXNativeTarget "UIserachqqtableviewcontrol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041EF93619D255D1006E7D1B /* Debug */,
+				041EF93719D255D1006E7D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		041EF93819D255D1006E7D1B /* Build configuration list for PBXNativeTarget "UIserachqqtableviewcontrolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041EF93919D255D1006E7D1B /* Debug */,
+				041EF93A19D255D1006E7D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041EF90119D255D1006E7D1B /* Project object */;
+}
